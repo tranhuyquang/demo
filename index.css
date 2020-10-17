@@ -1,0 +1,95 @@
+.top1{
+    background-color: black;
+    font-size: 40px;
+    color: crimson;
+    font-weight: bolder;
+    padding-left: 30px;
+    display: flex;
+}
+.smartphone{
+    flex-direction: row;
+    margin-top: 6px;
+    
+}
+.input{
+    flex-direction: row;
+    margin-left: 145px;
+    margin-bottom: 15px;
+}
+.top2{
+    display: flex;
+    padding: 20px; 
+   
+}
+.imgs{
+    transition: 0.7s;
+}
+.brand{
+    flex: 1;
+   
+}
+.brand:hover .img{
+    box-shadow:2px 4px 5px;
+    transition: 0.7s;
+}
+
+
+
+.slide{
+    margin-left: 75px;
+    border: 1px solid;
+    width: 790px;
+    overflow: hidden;
+    position: relative;
+    
+  }
+  .slide:hover .dieuhuong{
+      display: block;
+  }
+  .chuyen-slide{
+    width: 9999px;
+    transition: all 0.7s;
+   
+  }
+  .h{
+    width: 790px;
+    height: 300px;
+    float:left;
+  }
+  .dieuhuong{
+    position: absolute;
+    color:darkslategrey;
+    font-size: 60px;
+    top: 40%;
+    padding-left: 20px;
+    display: none;
+  }
+  .dieuhuong i:last-child{
+    position: relative;
+    left: 630px;
+    
+  }
+
+
+
+
+
+
+
+
+
+
+.decrease , increase {
+    color: black;
+    font-size: 20px;
+   
+}
+.increase{
+    color: black;
+    font-size: 20px;
+}
+
+.advertise {
+    text-align: center;
+    margin-top: 15px;
+}
