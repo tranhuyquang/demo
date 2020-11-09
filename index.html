@@ -1,139 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="index.css">
-   
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <div>
-        <div class="top" >
-            <!-- <div class=smartphone>
-                smartphones
-            </div> -->
-            <div class="top1">
-                <p>Category</p>
-            </div>
-            <div>
-                <input placeholder="bạn đang tìm điện thoại gì..." class="input">
-                <button>
-                    tìm
-                </button>
-            </div>
-        </div>
-        <div class="top2">
-            <div class="brand">
-                <a href="">
-                    <img src="img/iphone.jpg" class="imgs">
-                </a>
-            </div>
-            <div class="brand">
-                <a href="">
-                    <img src="img/samsung.jpg" class="imgs">
-                </a>
-            </div>
-            <div class="brand">
-                <a href="">
-                    <img src="img/oppo.png" class="imgs">
-                </a>
-            </div>
-            <div class="brand">
-                <a href="">
-                    <img src="img/vivo.jpg" class="imgs">
-                </a>
-            </div>
-            <div class="brand">
-                <a href="">
-                    <img src="img/vsmart.png" class="imgs">
-                </a>
-            </div>
-        </div>
-        </div>
-        <div class="qc">
-             <img src="img/qc1.png">
-             <img src="img/qc2.png">
-        </div>
-        <div class="slide">
-        <div class="dieuhuong">
-            <img src="img/trai.png" onclick="Back()" ;>
-            <img src="img/phai.png" onclick="Next();">
-        </div>
-
-            <div class="chuyen-slide">
-                <img class="h" src="img/1.png">
-                <img class="h" src="img/2.png">
-                <img class="h" src="img/3.png">
-                <img class="h" src="img/4.png">
-                <img class="h" src="img/5.png">
-                <img class="h" src="img/6.png">
-            </div>
-
-        </div>
-
-
-    <div class="advertise">
-        <img src="img/quangcaodt.png">
+    <div class="main">
+        <h1>lucky Number</h1>
+        <p>Dự đoán con số của bạn</p>
+        <input id="inputNumber" onkeypress="enterLogin(event, this)" placeholder="Nhập số" type="text">
+    <button onclick="welcome(event, this)">Quay số</button>
     </div>
-    <P class="title">
-        Hot nhất hiện nay
-    </P>
-    <div class="listphone">
-        <div class="dt">
-            <img src="img/samsung-galaxy-z-fold-2-061220-021232-400x400.jpg">
-            <p class="name">Samsung Galaxy Z Fold2</p>
-            <p class="price">50.000.000đ</p>
-
-        </div>
-        <div class="dt">
-            <img src="img/iphone-11-red-400x400.jpg">
-            <p class="name">Iphone 11 64GB</p>
-            <p class="price">19.990.000đ</p>
-        </div>
-        <div class="dt">
-            <img src="img/oppo-a92-tim-600x600-1-2-400x400.jpg">
-            <p class="name">OPPO A92</p>
-            <p class="price">6.490.000đ</p>
-        </div>
-        <div class="dt">
-            <img src="img/samsung-galaxy-a21s-055620-045659-400x400.jpg">
-            <p class="name">Samsung Galaxy A21s</p>
-            <p class="price">5.290.000đ</p>
-        </div>
-        
-        
-    </div>
-    <P class="title">
-        Đắt nhất hiện nay
-    </P>
-    <div class="listphone">
-
-        <div >
-            <img src="img/samsung-galaxy-z-fold-2-061220-021232-400x400.jpg">
-            <p class="name">Samsung Galaxy Z Fold2</p>
-            <p class="price">50.000.000đ</p>
-
-        </div>
-        <div>
-            <img src="img/ip12.jpg">
-            <p class="name">Iphone12 ProMax 512GB</p>
-            <p class="price">43.990.000đ</p>
-        </div>
-        <div>
-            <img src="img/ip12.2.jpg">
-            <p class="name">Iphone12 Pro 512GB</p>
-            <p class="price">40.490.000đ</p>
-        </div>
-        <div>
-            <img src="img/ip11.jpg">
-            <p class="name">Iphone11 ProMax 512GB</p>
-            <p class="price">5.290.000đ</p>
-        </div>
-    </div>
-    <script src="slideHome.js"></script>
+    
+    <script src="test.js"></script>
 </body>
-
 </html>
